@@ -25,3 +25,8 @@ const av = users.reduce((acc, user) => acc + user.age, 0) / users.length
 // 25
 const nums1 = [1, 2, 4, 3, 5, ]
 const sortNums = [...nums1].sort((l, h) => h - l)
+
+// 29
+const sp = nums1.splice(1, 2)
+
+
