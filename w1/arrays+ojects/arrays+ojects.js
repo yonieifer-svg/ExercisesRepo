@@ -119,4 +119,24 @@ const user = {
     role: "manager",
     active: true,
 };
-console.log()
+console.log(Object.keys(user))
+console.log(Object.values(user))
+for (const key in user) {
+    console.log(key + " = " + user[key])
+}
+
+// 23
+const order = {
+    id: 101,
+    customer: {
+        name: "Roi",
+        address: {
+            city: "Tel Aviv",
+            zip: "12345",
+        },
+    },
+};
+console.log(order.customer.address.city)
+order.customer.address.zip = "123"
+order.customer.phone = "123456789"
+delete order.customer.address.city
