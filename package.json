@@ -1,15 +1,23 @@
 {
-  "name": "w1",
+  "name": "exercises",
   "version": "1.0.0",
   "description": "",
-  "main": "sandbox.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonieifer-svg/ExercisesRepo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "bugs": {
+    "url": "https://github.com/yonieifer-svg/ExercisesRepo/issues"
+  },
+  "homepage": "https://github.com/yonieifer-svg/ExercisesRepo#readme",
   "dependencies": {
     "analiza-sync": "^1.0.1"
   }
